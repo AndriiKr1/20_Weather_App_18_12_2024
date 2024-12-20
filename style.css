@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(to right, #d7dde8, #bdc3c7, #667db6);
+
+
+}
+
+#container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+input {
+    padding: 8px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #007bff;
+}
+
+#weatherContainer {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    background-color: #f3f3f37a;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    text-align: center;
+}
+
+#weatherContainer img {
+    display: block; /* Робимо картинку блочною */
+    margin: 0 auto 10px auto; /* Центрування і відступ знизу */
+}
+
+
